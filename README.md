@@ -39,7 +39,7 @@ Check system clock for accuracy: `timedatectl`
 
 Partition disks: `fdisk /dev/sda`
 
-- Use command `n` to create primary partition with +500 M.
+- Use command `n` to create primary partition with +1G.
 - Create another primary partition with the remainder of the disk space.
 - Save partitions using command `w`.
 
