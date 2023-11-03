@@ -10,16 +10,15 @@ Prof. Codi West
 
 Download ISO file from trusted source. I got mine from mit.edu.
 
-Generate sha256 checksum of file using the command `shasum -a 256 filepath` in terminal.
+Generate sha256 checksum of file using the command `Get-FilePath 'filepath'` in Windows Powershell.
 
 - Compare result to verified checksum on the Arch Linux wiki.
 
 ## Part 2: Setup Virtual Machine
 
-Using VMware Fusion 12.1.2
+Using VMware Workstation 17
 
 - Create new virtual machine using ISO download.
 - Select `Other Linux 5.x kernel 64-bit` as the operating system.
-- Select `UEFI` boot option.
-- In VM settings, change memory to 2048 MB and disk size to 20 GB.
+- Allocate 20 GB to disk size and change memory to 2048 MB.
 - 
