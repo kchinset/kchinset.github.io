@@ -132,7 +132,11 @@ In a terminal, type `docker compose version` to check that the Docker Compose Pl
 
 In a terminal, run `docker run -d -p 443:443 --name openvas mikesplain/openvas` to install the container.
 
+![pull request](openvaspull.png)
+
 The conainer should now appear in Docker.
+
+![containers](containers.png)
 
 ## Part 3: Run a Vulnerability Scan
 
@@ -143,6 +147,8 @@ Login with username and password `admin`
 Click Scans -> Tasks -> Quick Start
 
 Leave default IP and start scan.
+
+![scan](gbscan.png)
 
 ## Part 4: docker-compose.yml
 
