@@ -61,11 +61,11 @@ docker-compose up -d
 - To generate QR code: `docker-compose logs -f wireguard`
 - Go into Wireguard app on phone and create new tunnel from QR code
 
-![phone ip before](phonebefore.png)
+![phone ip before](phonebefore.PNG)
 
-![phone connected to vpn](phonevpn.png)
+![phone connected to vpn](phonevpn.PNG)
 
-![phone ip after](phoneafter.png)
+![phone ip after](phoneafter.PNG)
 
 ## Part 4: Connect laptop to Wireguard
 
